@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Bootcamp: Lima</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+            body {
+                background: #F3F5F5;
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 2em;
+                font-weight: bold;
+            }
+            #all-contents {
+                /*max-width: 800px;*/
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(150, 16, 220);
+                margin: 0 auto;
+                display: flex;
+                padding: 25px;
+                margin-bottom: 20px;
+                width: 80%;
+                
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(18, 0, 82);
+                flex: 1;
+                width: 100%;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 20px;
+                font-size: 1.5em;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+                
+            }
+            a:hover {
+                  background-color: black;
+                  color: white;
+                  width: 10%;
+            }
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                margin: 0 auto;
+                display: flex;
+                max-width: 80%;
+                
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+            .time {
+               text-align: center;
+                border: 15px solid green;
+                padding: 10px;
+                margin: auto;
+               
+}
+    </style>
+</head>
+<body>
+  <div id="all-contents"> 
+
+            <nav>
+                <header>Bootcamp: Lima</header>
+                    <ul style="font-size:1em">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="helpfulLinks.html">Helpful Links</a></li>
+                        <li><a href="homework.html">Homework</a></li>
+                        <li><a href="commandList.html">Command List</a></li>
+                    </ul>
+            </nav>
+
+            <main>
+                <div class="sidebar">
+                </div>
+
+                <div class="content">
+                    <h1>Your Bootcamp Resource Guide!</h1>
+                    <br>
+                    <img src="./autonomy-checklist.png" width="600">
+                    <h3>Please use the Autonomy Checklist when asking questions on help desk!</h3>
+                    
+                    <img src="./debuggers-checklist.png" width="600">
+                    <h3>Please use the Debuggers Checklist when trying to fix an error!</h3>    
+                    
+                    <!--<h2>Tutoring</h2>-->
+                    <!--<p>Friday</p>-->
+                    <!--<p>9-4:30pm</p>-->
+                    <!--<p>Feel free to come in before or stay after your class for additional instruction</p>-->
+                </div>
+            </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Helpful Links</title>
+    <style>
+            body {
+                background: rgb(185, 215, 185);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(150, 16, 220);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+</head>
+<body>
+    <div id="all-contents"> 
+           <nav>
+           <header>Bootcamp: Lima</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="helpfulLinks.html">Helpful Links</a></li>
+                    <li><a href="homework.html">Homework</a></li>
+                    <li><a href="commandList.html">Command List</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <div class="sidebar">
+                </div>
+
+                <div class="content">
+                    <h1>Helpful Links</h1>
+                    <!--<h2>Week 5</h2>
+                        <a href="https://docs.google.com/presentation/d/1k8m4Dyk8rLpXwL8IFErv4c1CqwcB04QpuggTuYo7BTg/embed?usp=sharing"><p>Hoisting Slides</p></a>
+                        <a href="https://repl.it/@kchresfield/In-Class-Hoisting-Examples"><p>In Class Hoisting Examples</p></a>
+                        <a href="https://docs.google.com/presentation/d/1D2avFqGFr6EZYtreqEfU874HjpeHjusIH1cIH5J4ps4/embed?usp=sharing"><p>Scope & Closures Slides</p></a>
+                        <a href="https://repl.it/@kchresfield/In-Class-Scopes-and-Closures-Examples"><p>In Class Scopes and Closures Examples</p></a>
+                        <a href="https://docs.google.com/presentation/d/1dYwtmfRelEJIr7ev7fkRuQdmlffrZMPNTv7iUt1KbbQ/embed?usp=sharing"><p>Value vs. Reference Slides</p></a>
+                        <a href="https://repl.it/@kchresfield/In-Class-Value-vs-Reference-Examples"><p>In Class Value vs Reference Examples</p></a>
+                        <a href="http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/"><p>Understand JavaScript's "this" with Clarity</p></a>
+                        <a href="https://docs.google.com/presentation/d/1mU7S3orouzlCD4Xk3ULFcWz56k72knZ3rto0uuzzACA/edit?usp=sharing"><p>"this" Slides</p></a>
+                        <a href="https://repl.it/@kchresfield/In-Class-this-Examples"><p>In Class "this" Examples</p></a>
+                    <h2>Week 4</h2>
+                        <a href="https://docs.google.com/presentation/d/19K1raEUT74-3-_ygvGHExENN4wUX-3F3xG5DQToeaaY/embed?usp=sharing"><p>Recursion Slides</p></a>
+                        <a href="https://repl.it/@kchresfield/In-Class-Recursion-Example"><p>In Class Recursion Examples</p></a>
+                        <a href="https://docs.google.com/presentation/d/1cfhvts74X_Adg_l5YFqipFWjfkzm3aUFm46ffrYloVE/embed?usp=sharing"><p>Chaining Higher Order Functions Slides</p></a>
+                        <a href="https://repl.it/@kchresfield/Method-Chining-Class-Example"><p>In Class Chaining Higher Order Functions Examples</p></a>
+                        <a href="https://docs.google.com/presentation/d/1PDQTFJYLojoLWZaf_9gqXVExYg_e0vq8ku_DCRtWt3Q/embed?usp=sharing"><p>Reduce Slides</p></a>
+                        <a href="https://repl.it/@kchresfield/In-Class-Native-Reduce-Examples"><p>In Class Native Reduce Method</p></a>
+                        <a href="https://repl.it/@kchresfield/Reduce"><p>Reduce Brain Teasers</p></a>
+                        <a href="https://repl.it/@kchresfield/All-About-Reduce-Prompts"><p>All About Reduce: Prompts</p></a>
+                        <a href="https://repl.it/@kchresfield/All-About-Reduce-Answer-Key"><p>All About Reduce: Answer Key</p></a>
+                        <a href="https://docs.google.com/presentation/d/1jmM-Ab2G0Rum0n3ji9bI73mi0dtDeOnL8zvmb3BkzsE/edit?usp=sharing"><p>Pure Functions Slides</p></a>
+                        <a href="https://repl.it/@kchresfield/In-Class-Pure-Function-Examples"><p>In Class Pure Function Examples</p></a>
+                        <a href="https://www.youtube.com/watch?v=dZ41D6LDSBg"><p>Pure Functions Video</p></a>  
+                        <a href="https://repl.it/@kchresfield/Extra-Recursion-Practice-Tutoring-PROMPTS"><p>Extra Recursion Pratice: Prompts (Begin at line 284)</p></a>
+                        <a href="https://repl.it/@kchresfield/Extra-Recursion-Practice-Tutoring"><p>Extra Recursion Pratice: Answer Key</p></a>
+                    <h2>Week 3</h2>
+                        <a href="https://docs.google.com/document/d/1XdP_03113B6OiaTaKODbTgXSsAGQxxq8GNhQFtyqKx0/edit"><h3>Presentation Topics</h3></a>
+                        <a href="https://quizlet.com/_5m8ztr"><p>Week 4 Presentation FlashCards</p></a>
+                        <a href="https://docs.google.com/presentation/d/1UWDdyYMWNb08dkKllxQtdX4a6gtdeUBNi_1wjmB3AsE/embed?usp=sharing"><p>Lodown Documentation Slides</p></a>
+                        <a href="https://docs.google.com/presentation/d/1MAgzWRdYkigTx44psQpLSLZJZo7jVfAMH3Bzz7wrnqE/embed?usp=sharing">Rest Parameter Slides (extends function)</a>
+                        <a href="https://docs.google.com/presentation/d/1N8pSinpYuOcg7_Js5HxBvL4EpsQl777bSy4IEFEwrxg/embed#slide=id.p"><p>Week 3 Slides</p></a>
+                        <a href="https://docs.google.com/presentation/d/1cs3u8ucSES02FROsmVD2M2TOZ-624C3Tvby4VcTlhOU/embed?usp=sharing"><p>Week 3 Day 1 Slides</p></a>
+                        <a href="https://www.youtube.com/watch?v=BMUiFMZr7vk"><p>Youtube: Higher Order Functions</p></a>
+                        <h3>Week 3 Tutoring Links</h3>
+                        <a href="https://repl.it/@kchresfield/HOF-Tutoring-Week-3"><p>Higher Order Functions Repl</p></a>
+                        <a href="https://docs.google.com/presentation/d/1SUQDW1TGF5TJlnpoGevYSwZow5FLXXZoh0WoStg1OOM/embed?usp=sharing"><p>Miguel's Recursion Slides</p></a>
+                    <h2>Week 2</h2>
+                        <a href="https://docs.google.com/document/d/1roWbGU1UHc_HG6quQqrRQLWyfJ-VDFvsuJFr5kuP46M/edit?usp=sharing"><h3>Presentation Topics</h3></a>
+                        <a href="https://docs.google.com/presentation/d/1k8pS_hZhaUn37k9uS7YJUO2Jr38UeHpk20W3bxOzuRE/embed?usp=sharing"><p>Week 2 Slides</p></a>
+                        <a href="https://docs.google.com/presentation/d/1-uIccS3coVh6LkC8jAc0tXttF0Rv-p71FYxTFFNbinM/embed?usp=sharing"><p>Week 2 Day 1 Slides</p></a>
+                        <a href="http://eloquentjavascript.net/"><p>EQJS</p></a>
+                    <h2>Week 1</h2>
+                        <a href="https://docs.google.com/presentation/d/1TTWRFgVXHXrllbZizWzEBtbh7gfXuJLPXEfjx5ZbtcU/embed?usp=sharing"><p>Week 1 Day 1 Slides</p></a>
+                        <a href="https://docs.google.com/presentation/d/150lk5FY8KXwcnsTpOLRk51j9ccvyHwrMV0x2j2xS7po/embed?usp=sharing"><p>Week 1 Day 2 Slides</p></a>
+                        <a href="https://docs.google.com/presentation/d/1YkYIJBweP2gUh71b-FsqUipL4WKjj7SPkE1kVcLKlY8/embed?usp=sharing"><p>Week 1 Day 3 Slides</p></a>
+                        <a href="https://docs.google.com/presentation/d/1J-qE0RVBkutfXP_5NIeEac9boLqKy-fWYGh8aTP-_54/embed?usp=sharing"><p>Week 1 Day 4 Slides</p></a>
+                        <a href="https://docs.google.com/document/d/1L7-nYcgzfLBBbS47GOUE5M4DpA-B9J0aNUkzXlNP8lk/edit?usp=sharing"><h3>Presentation Topics</h3></a> 
+                        <a href="https://docs.google.com/presentation/d/1_ek0luJTMnUmFXPWXEJ5rxCpqZoxO6P7NPUEEGLfvfU/embed?usp=sharing"><p>Week 1 Slides</p></a> 
+                        <a href="https://github.com/operationspark/studies-v2#setup-top"><p>Studies project on GitHub</p></a>
+                        <a href="https://repl.it/@kchresfield/W1D4-Closures-Example"><p>Closures Example</p></a>
+                        <a href="https://repl.it/@kchresfield/W1D4-Closure-Examples"><p>In Class Closure Examples</p></a>
+                        <a href='https://quizlet.com/_7b8wuq'><p>Array/String Methods (FlashCards)</p></a>
+                        <a href="https://docs.google.com/presentation/d/1CXbrZgjJDJvalWdccZAkWQREPY6EeunTBhjIbIqG3Bg/embed#slide=id.gc6f90357f_0_0"><p>How to Format your Studies Project</p></a>
+                        <a href="https://docs.google.com/presentation/d/1_jVg6hipAqOtyaZqJggUT8mcE11yEovsvTzaMWDQ27Q/embed#slide=id.p"><p>var, let, const addt'l Slides</p></a>
+                        <a href="https://docs.google.com/presentation/d/1kyPzrKsAWknxL6EkWvJOqYX-nxOlAop2-sS8eJRKa_I/embed?usp=sharing"><p>Pseudocoding Slides</p></a>
+                        <a href="https://repl.it/@kchresfield/Pseudocoding-Tutoring-Example"><p>Pseudocoding In Class Examples</p></a>-->
+                    <h2>Precourse</h2>
+                        <a href="https://docs.google.com/presentation/d/1UAEs1sdL3j6nfJEAbBBW49bcT-1dMPT6lQE_5n0F_Ag/embed?slide=id.g7a896f1aef_0_40#slide=id.p"><p>Orientation Slides</p></a>
+                </div>
+            </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homework</title>
+    <style>
+            body {
+                background: rgb(185, 215, 185);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(150, 16, 220);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+</head>
+<body>
+    <div id="all-contents"> 
+           <nav>
+           <header>Bootcamp: Lima</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="helpfulLinks.html">Helpful Links</a></li>
+                    <li><a href="homework.html">Homework</a></li>
+                    <li><a href="commandList.html">Command List</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <div class="sidebar">
+                </div>
+
+                <div class="content">
+                    <h1>Homework</h1>
+                    <!--<h2>Week 6</h2>
+                        <h3>Due Monday before Normal Class Time</h3>
+                            <ul>
+                                <li>Everything</li>
+                            </ul>
+                    <h2>Week 5</h2>
+                        <h3>Due Tuesday Before Class</h3>
+                            <ul>
+                                <li>Code: Continue working on Reactivex.io</li>
+                                <li>Quiz: Hoisting</li>
+                                <li>Code Quiz: capitalizeFirst</li>
+                                <li>Work on Studies and Lodown revisions</li>
+                            </ul>
+                        <h3>Due Wednesday Before Class</h3>
+                            <ul>
+                                <li>Code: Continue working on Reactivex.io</li>
+                                <li>Quiz: Scopes & Closures, BC - Closures</li>
+                                <li>Code Quiz: countOccurrences</li>
+                                <li>Work on Studies and Lodown revisions</li>
+                            </ul>
+                        <h3>Due Thursday Before Class</h3>
+                            <ul>
+                                <li>Code: Continue working on Reactivex.io</li>
+                                <li>Quiz: BC - The Keyword "this"</li>
+                                <li>**Note** To take the test all lights should be GREENLIT except Reactivex.io and the Value vs Reference Quiz</li>
+                                <li>Prepare for tomorrow's checkpoint</li>
+                            </ul>
+                         <h3>Due Monday Before Class</h3>
+                            <ul>
+                                <li>Code: Reactivex.io *Submit picture via Slack*</li>
+                                <li>Code Quiz: Value vs Reference</li>
+                                <li>**Note** EVERYTHING should be GREENLIT</li>
+                            </ul>
+                    <h2>Week 4</h2>
+                        <h3>Due Tuesday Before Class</h3>
+                            <ul>
+                                <li>Code: Continue working on Recursion Pratice</li>
+                                <li>Code Quiz: Longest Word, First Factorial, Change Letters</li>
+                                <li>Prepare for tomorrow's presentations</li>
+                                <li>Work on Studies and Lodown revisions</li>
+                            </ul>
+                        <h3>Due Wednesday Before Class</h3>
+                            <ul>
+                                <li>Code: Continue working on Recursion Pratice</li>
+                                <li>Code Quiz: capitalizeFirstMap, countOccurrencesFilter, mapObject, Capitalize All, Alphabetical</li>
+                                <li>Revisions: Week 3 Checkpoint Revisions</li>
+                                <li>Prepare for tomorrow's checkpoint</li>
+                                <li>Work on Studies and Lodown revisions</li>
+                            </ul>
+                        <h3>Due Thursday Before Class</h3>
+                            <ul>
+                                <li>Code: Continue working on Recursion Pratice</li>
+                                <li>Code Quiz: reduceStairs, mapObjectReduce, Greater Than, Is Balanced, Reverse String</li>
+                                <li>Prepare for tomorrow's checkpoint</li>
+                                <li>Work on Studies and Lodown revisions</li>
+                            </ul>
+                         <h3>Due Monday Before Class</h3>
+                            <ul>
+                                <li>Code: Recursion Pratice GREENLIT</li>
+                                <li>Code Quiz: Time Converter, Triangular, Surrounded Symbols</li>
+                                <li>**Note** All Code Quizzes should be GREENLIT</li>
+                                <li>Quiz: Pure Functions</li>
+                                <li>Prepare for Monday's checkpoint</li>
+                                <li>Work on Studies and Lodown revisions</li>
+                            </ul>   
+                    <h2>Week 3</h2>
+                        <h3>Due Tuesday Before Class</h3>
+                            <ul>
+                                <li>Code: Underpants up to _.each</li>
+                                <li>Lodown: _.identity - _.each </li>
+                                <li>Prepare for tomorrow's presentations</li>
+                                <li>Work on Studies revisions</li>
+                            </ul>
+                        <h3>Due Wednesday Before Class</h3>
+                            <ul>
+                                <li>Code: Underpants up to _.pluck</li>
+                                <li>Lodown: _.unique - _.pluck </li>
+                                <li>Revisions: Week 2 Checkpoint Revisions</li>
+                                <li>Work on Studies revisions</li>
+                            </ul>
+                        <h3>Due Thursday Before Class</h3>
+                            <ul>
+                                <li>Code: Underpants GREENLIT</li>
+                                <li>Lodown: COMPLETED</li>
+                                <li>Work on Studies revisions</li>
+                            </ul>
+                        <h3>Due Monday Before Class</h3>
+                            <ul>
+                                <li>Code: Let's Get Functional GREENLIT</li>
+                                <li>Checkpoint: Prepare for Monday's checkpoint</li>
+                                <li>Presentation: Prepare for Tuesday's Presentation</li>
+                                <li>Work on Studies revisions</li>
+                            </ul>
+                    <h2>Week 2</h2>
+                        <h3>Due Tuesday Before Class</h3>
+                            <ul>
+                                <li>Code: Matchy data.js </li>
+                                <li>Read: Type, Prototypal Inheritance, EQJS: Chapters 1 & 2 </li>
+                                <li>Quiz: Type</li>
+                                <li>EQJS: Chapter 2 exercises</li>
+                                <li>Prepare for tomorrow's presentations</li>
+                            </ul>
+                        <h3>Due Wednesday Before Class</h3>
+                            <ul>
+                                <li>Code: Matchy GREENLIT</li>
+                                <li>Read: Functions, Closures, EQJS: Chapter 3</li>
+                                <li>Quiz: Functions</li>
+                                <li>EQJS: Chapter 3 exercises</li>
+                                <li>Revisions: Week 1 Checkpoint Revisions</li>
+                            </ul>
+                        <h3>Due Thursday Before Class</h3>
+                            <ul>
+                                <li>Code: Function Master: test-master.js, Prompts 1 - 6 of Function Master</li>
+                                <li>Code: Pizza Class</li>
+                                <li>Read: Prototypal Inheritance, Constructor Functions</li>
+                                <li>Quiz: Constructor Functions</li>
+                                <li>EQJS: Chapter 4 exercises</li>
+                            </ul>
+                        <h3>Due Monday Before Class</h3>
+                            <ul>
+                                <li>Code: Function Master GREENLIT</li>
+                                <li>Code: EQJS GREENLIT</li>
+                                <li>Read: Scope, Functions as First Class Objects</li>
+                                <li>Quiz: Scope</li>
+                                <li>Checkpoint: Prepare for Monday's checkpoint</li>
+                                <li>Prepare for Tuesday's Presentation</li>
+                            </ul>--> 
+                        <h2>Week 1</h2>
+                        <h3>Due Monday Before Class</h3>
+                            <ul>
+                                <li>Code: First Website and Portfolio Projects GREENLIT</li>
+                            </ul>
+                        <!--<h3>Due Tuesday Before Class</h3>
+                            <ul>
+                                <li>Code: Scratch Pad Day 1</li>
+                                <li>Read: Statements & Expressions, The console & Logging, Constructs & Collections</li>
+                                <li>Quizzes: Statements & Expressions, The console & Logging</li>
+                                <li>Work on Studies project</li>
+                            </ul>
+                        <h3>Due Wednesday Before Class</h3>
+                            <ul>
+                                <li>Code: Scratch Pad Day 2</li>
+                                <li>Read: Holding Things in Memory</li>
+                                <li>Quizzes: Conditional Statements, Collections, Loops</li>
+                                <li>Work on Studies project</li>
+                            </ul>
+                        <h3>Due Thursday Before Class</h3>
+                            <ul>
+                                <li>Code: Scratch Pad Day 3</li>
+                                <li>Read: DataTypes</li>
+                                <li>Quiz: 'Variables, constants, and lets' </li>
+                                <li>Work on Studies project</li>
+                            </ul>
+                        <h3>Due Monday Before Class</h3>
+                            <ul>
+                                <li>Code: Scratch Pad GREENLIT</li>
+                                <li>Code: Studies project COMPLETED</li>
+                                <li>Read: Operators</li>
+                                <li>Quiz:Operators, DataTypes</li>
+                                <li>Checkpoint: Prepare for Monday's Checkpoint</li>
+                                <li>Presentation: Prepare for Tuesday’s presentation</li>
+                            </ul>-->
+                </div>
+            </main>
+    </div>
+</body>
+</html>

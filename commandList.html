@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Command List</title>
+    <style>
+            body {
+                background: rgb(185, 215, 185);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(150, 16, 220);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+</head>
+<body>
+    <div id="all-contents"> 
+           <nav>
+           <header>Bootcamp: Lima</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="helpfulLinks.html">Helpful Links</a></li>
+                    <li><a href="homework.html">Homework</a></li>
+                    <li><a href="commandList.html">Command List</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <div class="sidebar">
+                </div>
+
+                <div class="content">
+                    <h1>Command Cheat Sheet</h1>
+                    <!--<h2>Republish lodown project to npm</h2>
+                        <h4>Update the version number in your lodown package.json file</h4>
+                        <h4>in the terminal, (~/enviornment/lodown) run</h4>
+                        <em><h4>npm publish</h4></em>
+                        <h4>in another terminal (~/enviornment/gitHubName.github.io) run</h4>
+                        <em><h4>npm install --global lodown-yourPackage</h4></em>
+                        <em><h4>npm link lodown-yourPackage</h4></em>-->
+                    <h2>Change into your repository folder</h2>
+                        <h4>cd "your-github-username"-github.io</h4>
+                    <h2>Pushing changes to GitHub</h2>
+                        <h4>git add -A</h4>
+                        <h4>git commit -m "<\your commit message>"</h4> 
+                        <h4>git push origin master</h4>
+                    <h2>Change out of a directory</h2>
+                        <h4>cd ..</h4>
+                    <h2>Move files or folders in Cloud9</h2>
+                        <h4>mv <\current-location>  <\desired-location></h4>
+                </div>
+            </main>
+    </div>
+</body>
+</html>
