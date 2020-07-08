@@ -1,2 +1,2 @@
-# lima.github.io
-Cohort Lima
+# mike.github.io
+Cohort Mike
