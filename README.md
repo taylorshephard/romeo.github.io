@@ -1,2 +1,2 @@
-# mike.github.io
-Cohort Mike
+# november.github.io
+Cohort November
