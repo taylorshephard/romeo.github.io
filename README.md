@@ -1,2 +1,2 @@
-# oscar.github.io
-Cohort Oscar
+# papa.github.io
+Cohort Papa
